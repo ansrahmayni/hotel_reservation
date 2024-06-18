@@ -60,12 +60,6 @@
         height: 600px;
     }
 
-    .home {
-            
-        color: white;
-        padding-top: 10%; /* Untuk mengakomodasi navbar */
-    }
-
     .home::before {
         content: '';
         top: 0;
