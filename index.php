@@ -56,6 +56,7 @@
         background-image: url('assets/bg.jpg'); /* Sesuaikan dengan gambar Anda */
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         height: 600px;
     }
 
