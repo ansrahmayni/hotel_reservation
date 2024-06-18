@@ -30,11 +30,11 @@
         </div>
         <div class="aboutpict">
             <div class="about1">
-                <img src="assets/hmepg.jpg" alt="aboutpict">
+                <img src="assets/diara.png" alt="aboutpict">
             </div>
             <br>
             <div class="about2">
-                <img src="assets/pict1.jpg" alt="aboutpict">
+                <img src="assets/bg.png" alt="aboutpict">
             </div>
         </div>
         <br>
@@ -107,7 +107,7 @@
         padding: 0;
         margin-right: 85px;
         margin-left: 20px;
-        width: 250px;
+        width: 300px;
     }
 
     .kata2 {
