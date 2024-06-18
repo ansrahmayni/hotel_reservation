@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business & Family Hotel</title>
-    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
 <?php include 'components/header.php'; ?>
@@ -52,8 +52,8 @@
     body {
         margin: 0;
         padding: 0;
-        font-family: Arial, sans-serif;
-        background-image: url('assets/bg.jpg'); /* Sesuaikan dengan gambar Anda */
+        font-family: 'Montserrat';
+        background-image: url('assets/bakgron.png'); /* Sesuaikan dengan gambar Anda */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
