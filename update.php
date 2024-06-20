@@ -54,6 +54,7 @@ $result_rooms = $conn->query("SELECT * FROM ruangan");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Reservation</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
@@ -91,7 +92,7 @@ $result_rooms = $conn->query("SELECT * FROM ruangan");
 </body>
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: 'Montserrat';
         margin: 0;
         padding: 0;
         background-color: #f4f4f4;

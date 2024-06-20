@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Reservation</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
 <?php include 'components/header.php'; ?>
@@ -46,7 +47,7 @@
 </body>
 <style>
     body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat';
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;

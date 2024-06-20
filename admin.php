@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - Reservations</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
     <?php include 'components/header.php'; ?>
@@ -57,6 +58,9 @@
     </div>
 </body>
 <style>
+    body{
+        font-family: 'Montserrat';
+    }
     .container {
     width: 80%;
     margin: 50px auto;

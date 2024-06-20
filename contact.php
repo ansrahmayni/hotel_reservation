@@ -44,6 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
 <?php include 'components/header.php';?>
@@ -69,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     body{
         margin: 0;
         padding: 0;
-        font-family: Arial, sans-serif;
+        font-family: 'Montserrat'
         background-image: url('assets/bg.jpg'); /* Sesuaikan dengan gambar Anda */
         background-size: cover;
         background-position: center;
