@@ -50,16 +50,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php include 'components/header.php';?>
     <section class="contact">
         <div class="gabungan">
-            <h1 class="satu">Contact Us</h1>
-            <hr class="garis"/>
-            <p class="judulsatu">Hotel E-Link</p>
-            <p class="para">Jl. Kota Taman Metropolitan No. 7 Blok XI B,</p>
-            <p class="parasatu">Metland Transyogi, Cileungsi Kidul,</p>
-            <p class="paradua">Kec. Cileungsi, Kabupaten Bogor, Jawa Barat 16820</p>
-        </div>
-        <div class="gabungandua">
-            <p class="okesatu">P. +62 21 8047 4747</p>
-            <p class="okedua">WA. +62 878 8880 5854</p>
+            <h1>Contact Us</h1>
+            <hr/><br>
+            <p class="judul">Diara Hotel</p>
+            <p>Jl. Kota Taman Metropolitan No. 7 Blok XI B,</p>
+            <p>Metland Transyogi, Cileungsi Kidul,</p>
+            <p>Kec. Cileungsi, Kabupaten Bogor, Jawa Barat 16820</p>
+            <p>P. +62 21 8047 4747</p>
+            <p>WA. +62 878 8880 5854</p>
             <p>E. marketingdhc01@gmail.com</p>
             <p>W. www.diarahotel.id</p>
         </div>
@@ -70,11 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     body{
         margin: 0;
         padding: 0;
-        font-family: 'Montserrat'
-        background-image: url('assets/bg.jpg'); /* Sesuaikan dengan gambar Anda */
-        background-size: cover;
-        background-position: center;
-        height: 600px;
+        font-family: 'Montserrat';
     }
 
     .contact{
@@ -82,56 +76,35 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
     }
 
-    .satu {
-        color: #fff;
-        font-family: Arial, sans-serif;
+    .gabungan{
+        color: #93273d;
         margin-left: 60px;
+        margin-bottom: 20px
+    }
+
+    .gabungan h1 {
+        color: #93273D;
         font-size: 25px;
     }
 
-    .judulsatu {
-        color: #fff;
+    .judul {
+        color: #93273D;
         font-weight: bold;
-        font-family: Arial, sans-serif;
-        margin-left: 60px;
         font-size: 20px;
     }
 
-    .garis {
+    .gabungan hr {
         width: 30%;
         height: 2px;
-        background-color: #fff;
+        background-color: #93273D;
         border: none;
-        margin-left: 60px;
+        float: left;
         font-size: 15px;
-    }
-      
-    .para {
-        color: #fff;
-        font-family: arial, sans-serif;
-        font-size: 17px;
-        margin-left: 60px;
-      
-    }
-      
-    .parasatu {
-        color: #fff;
-        font-family: arial, sans-serif;
-        margin-left: 60px;
-        font-size: 17px;
-    }
-      
-    .paradua {
-        color: #fff;
-        font-family: arial, sans-serif;
-        margin-left: 60px;
-        font-size: 17px;
     }
 
     .gabungandua {
-        color: #fff;
+        color: #93273D;
         font-size: 80px;
-        font-family: arial, sans-serif;
         margin-left: 50px;
         font-size: 17px;
         position: absolute; /* Aktifkan positioning absolut */

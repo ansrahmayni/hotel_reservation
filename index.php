@@ -72,7 +72,8 @@
     .home h1 {
         padding-left: 90px;
         padding-bottom: 155px;
-        font-size: 250%;    
+        font-size: 250%;   
+        color: #fff; 
     }
 
     /* Container Styles */

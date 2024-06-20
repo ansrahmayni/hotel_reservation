@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Reservation</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <div class="navcontainer">
-            <a href="/hotel_reservation" class="logo">Hotel E-Link</a>
+            <a href="/hotel_reservation" class="logo"><img src="assets/logo.png"></a>
             <ul class="nav-links">
                 <li><a href="<?= $base_url ?>/">Home</a></li>
                 <li><a href="<?= $base_url ?>/#rooms">Rooms</a></li>
@@ -45,11 +44,8 @@
         align-items: center;
     }
 
-    nav .logo {
-        font-size: 29px;
-        font-weight: bold;
-        text-decoration: none;
-        color: rgba(156, 17, 36, 1);
+    nav .logo img{
+        width: 80px;
     }
 
     nav .nav-links {

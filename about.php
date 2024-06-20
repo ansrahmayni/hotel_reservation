@@ -62,6 +62,23 @@
         </div>
     </section>
 
+    <section class="meetings" id="meetings">
+        <div class="kata3">
+            <h1>Meetings</h1>
+            <hr>
+            <p>Diara Hotel Cileungsi menyediakan ruang pertemuan untuk mengadakan berbagai kegiatan.<br> Tersedia tiga ruang pertemuan yaitu Addax, Maleo, dan Kakapo yang dapat memuat hingga 50 dan 120 orang.</p>
+        </div>
+
+        <div class="meetings1">
+                <img src="assets/meetings1.png"/>
+                <img src="assets/meetings2.png"/>
+            </div>
+
+            <div class="meetings2">
+                <img src="assets/meetings3.png"/>
+                <img src="assets/meetings4.png"/>
+            </div>
+    </section>
 <?php include 'components/footer.php'; ?>
 </body>
 <style>
@@ -117,6 +134,7 @@
     .kata2 {
         color: #93273D;
         text-align: center;
+        font-size: 20px;
     }
 
     .kata2 hr{
@@ -157,6 +175,46 @@
     .facilities2 img{
         padding: 7px;
         width: 40%;
+    }
+
+    .meetings1{
+        display: flex;
+        align-items: center;
+        padding: 0% 5%;
+        margin: 55px 10px;
+    }
+
+    .meetings1 img{
+        padding: 7px;
+        width: 40%;
+        margin-left: 80px;
+    }
+
+    .meetings2{
+        display: flex;
+        align-items: center;
+        padding: 0% 5%;
+        margin: 0px 10px;
+    }
+
+    .meetings2 img{
+        padding: 7px;
+        width: 40%;
+        margin-left: 80px;
+    }
+
+    .kata3 {
+        color: #93273D;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .kata3 hr{
+        width: 20%;
+        height: 2px;
+        border-width: 2px;
+        color: #93273D;
+        background-color: #93273D;
     }
 </style>
 </html>

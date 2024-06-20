@@ -7,12 +7,13 @@
 </head>
 <body>
     <footer>
-        <h1 class="footerlogo">Hotel E-Link</h1>
+        <img src="assets/logo2.png" class="footerlogo">
 
         <a class="pindahsatu">
-          <p>Hotel E-Link, Westminster, London SW1A 0AA England</p>
-          <p>Westminster, London, UK</p>
-          <p>hotele-link@gmail.com</p>
+        <p>Jl. Kota Taman Metropolitan, Metland Transyogi, Cileungsi Kidul</p>
+          <p>Kec. Cileungsi, Kabupaten Bogor, Jawa Barat 16820</p>
+          <p>P. +62 21 8047 4747   |   WA. +62 878 8880 5854</p>
+          <p>www.diarahotel.id   |  dhc,diarahotelgroup.com</p>
         </a>
 
         <div class="footerpict">
@@ -29,14 +30,14 @@
         bottom: 0;
         width: 100%;
         text-align: left;
-        height: 150px;
+        height: 170px;
         display: block;
     }
 
     .footerlogo {
         float: right;
-        margin-top: 55px;
         margin-right: 70px;
+        margin-top: 35px;
         color: #fff;
     }
 
@@ -58,7 +59,7 @@
 
     .pindahsatu {
         color: white;
-        margin-top: -10px;
+        margin-top: -25px;
         position: absolute;
         text-align: center;
         top: 30px; /* Menaikkan tulisan ke atas di dalam footer */
