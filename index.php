@@ -11,7 +11,7 @@
 <?php include 'components/header.php'; ?>
 
     <section class="home" id="home"> 
-        <h1>Modern.<br> Comfortable.<br> Affordable.</h1>
+        <h1>Modern.<br> bohong ceunah cok.<br> Affordable.</h1>
     </section>
 
     <section class="rooms" id="rooms">
